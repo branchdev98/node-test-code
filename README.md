@@ -4,8 +4,8 @@ This project which applies MVC/DDD/Hexagonal structure is using [Express](https:
 
 ## Contents ##
 1. [Architecture Overview](#architecture-overview)
-  1) [Data Layer](#data-layer)
-  2) [Domain Layer](#domain-layer)
+  1.1 [Data Layer](#data-layer)
+  1.2 [Domain Layer](#domain-layer)
   1.3 [Routs/Controller Layer](#routescontroller-layer)
 2. [Security Concern](#security-concern)
   2.1 [JWT signing and verification](#jwt-signing-and-verification)
