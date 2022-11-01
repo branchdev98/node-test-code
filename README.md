@@ -208,6 +208,36 @@ Body Params:
 }
 ```
 
+### Get info ###
+
+```shell
+GET /admin/info
+```
+```js
+{
+    "status": "success",
+    "data": {
+          "username": "admin",
+          "email": "super.admin@gmail.com",
+          "created": "2022-10-30T22:55:23.507Z"
+    }
+}
+```
+
+
+**Description**: logs in to the server. Server will return a JWT token:
+
+```js
+{
+    "status": "success",
+    "data": {
+        "token": {
+          access_token: "eyJhbGciOiJIUzxxxxxxx.eyJlbWFpbCI6ImRpbW9zdGhlbxxxxxxxxxxxxx.axxxxxxxxxx",
+          expiresIn: 86400,
+        },
+    }
+}
+```
 
 ### Update ###
 
